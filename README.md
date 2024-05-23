@@ -8,3 +8,5 @@ py convertor.py
 https://github.com/calcuis/png-ico-convertor
 
 https://github.com/calcuis/png-icns-convertor
+
+https://stackoverflow.com/questions/13827325/correct-mime-type-for-favicon-ico
