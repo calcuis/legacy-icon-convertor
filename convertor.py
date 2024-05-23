@@ -17,7 +17,8 @@ if png_images:
 
         from PIL import Image
         png_image = Image.open(selected_file)
-        png_image.save("icon.ico", format='ICO', sizes=[(32, 32)])
+        png_image.save("icon.ico", format='ICO', sizes=[(32, 32)]) # windows/linux format
+        # png_image.save("icon.icns", format='ICNS', sizes=[(32, 32)]) # mac format
         print("Done; converted to icon.ico and saved in the same directory.")
 
     except (ValueError, IndexError):
